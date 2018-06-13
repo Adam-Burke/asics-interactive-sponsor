@@ -25,7 +25,7 @@ function App() {
       >
         <SponsorLink>KNOW MORE</SponsorLink>
         <SponsorLink style={{ margin: "0 2rem 0 0" }}>BUY</SponsorLink>
-        <img src={"/productImage.png"} style={{}} />
+        <img src={"/static/productImage.png"} style={{}} />
         <img src={"/brandImage.png"} style={{}} />
       </div>
     </div>
