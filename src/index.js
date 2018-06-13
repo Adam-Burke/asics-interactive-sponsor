@@ -1,17 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import styled from "styled-components";
-import brandImage from "./brandImage.png";
-import productImage from "./productImage.png";
-import mainImage from "./mainImage.jpg";
-import gradientBackground from "./gradientBackground.jpg";
 
 function App() {
   return (
     <div style={{ width: "1142px", height: "132px", position: "relative" }}>
-      <img src={mainImage} style={{ position: "absolute", zIndex: -1 }} />
       <img
-        src={gradientBackground}
+        src={"/mainImage.jpg"}
+        style={{ position: "absolute", zIndex: -1 }}
+      />
+      <img
+        src={"/gradientBackground.jpg"}
         style={{ position: "absolute", zIndex: -1 }}
       />
       <div
@@ -26,8 +25,8 @@ function App() {
       >
         <SponsorLink>KNOW MORE</SponsorLink>
         <SponsorLink style={{ margin: "0 2rem 0 0" }}>BUY</SponsorLink>
-        <img src={productImage} style={{}} />
-        <img src={brandImage} style={{}} />
+        <img src={"/productImage.png"} style={{}} />
+        <img src={"/brandImage.png"} style={{}} />
       </div>
     </div>
   );
